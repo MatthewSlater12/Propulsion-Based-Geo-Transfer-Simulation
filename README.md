@@ -1,4 +1,5 @@
 # Propulsion-Based-Geo-Transfer-Simulation
+Ran on matlab R2022b
 This repository contains the counterpart to my other work, this project simulates the use of propulsive methods to move from an initial set of orbits to the geostationary ring. The delta V and time of flight is then calculated for these methods as a point of baseline comparison to the luna assist methods in the other part of the project.
 
 The main aim of my masters thesis was to analyse the use of lunar gravity assist to move a satellite from an LEO available from launch sites in the Uk to the GEO stationary ring. To make this analysis a baseline set of time of flight and delta V budgets as to assess the potential improvements for the lunar gravity assist methods. This simulation uses the patched conics approximation and a set of known orbits to find the difference in the vector velocity at the points of intercept between each orbit to determine the delta V required to move from one orbit to the next.
